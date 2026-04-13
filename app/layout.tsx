@@ -3,7 +3,7 @@ import { ThemeProvider } from '@/hooks/useTheme'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Pongpitchit Sittipakdee — Portfolio',
+  title: 'Portfolio | Pongpitchit.ps',
   description: 'Content Creator · Graphic Design · Video · Typography',
 }
 
