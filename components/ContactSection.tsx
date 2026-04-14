@@ -88,7 +88,7 @@ export default function ContactSection({ profile, contact }: ContactSectionProps
               <div>
                 <p className="font-sans text-sm font-bold" style={{ color: 'var(--text)' }}>{profile.name}</p>
                 <p className="font-mono text-xs mt-1" style={{ color: 'var(--text-muted)' }}>{profile.title}</p>
-                <p className="font-sans text-xs mt-1" style={{ color: 'var(--text-dim)' }}>{contact.location}, Thailand</p>
+                <p className="font-sans text-xs mt-1" style={{ color: 'var(--text-dim)' }}>{contact.location} Thailand</p>
               </div>
             </div>
           </div>

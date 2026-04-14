@@ -50,26 +50,16 @@ export const aboutData = {
     },
   ],
   projectsInProgress: [
-    {
-      avatar: '/iothub.png',
-      name: 'IOT-HUB',
-      text: 'IoT Sensor Hub - A comprehensive IoT monitoring platform for collecting, processing, and visualizing sensor data from ESP32/ESP8266 devices. Built with PHP, MySQL, and modern web technologies.',
-    },
-    {
-      avatar: '/restaurant-qr-code-ordering.png',
-      name: 'Fullstack-Docker-QR',
-      text: 'A Full-Stack application containerized with Docker for easy deployment and scalability. Includes user authentication, a dynamic dashboard, API integration, database connectivity, and a modern responsive UI.',
-    },
-    {
-      avatar: '/fullstack-docker.png',
-      name: 'FullStack-Next.js',
-      text: 'A Full-Stack Next.js application featuring user authentication, a dynamic dashboard, API integration, database connectivity, and modern UI components. Designed for high performance, scalability, and a seamless user experience.',
-    },
-    {
-      avatar: '/Trello-Clone.png',
-      name: 'Trello-Clone',
-      text: 'A Trello-style task manager with boards, lists, and cards — featuring signup/login, a real-time dashboard, drag-and-drop, and collaboration tools.',
-    },
+    // {
+    //   avatar: '',
+    //   name: '',
+    //   text: '',
+    // },
+    // {
+    //   avatar: '',
+    //   name: '',
+    //   text: '',
+    // },
   ],
   skills: [
     { name: 'Next.js',      logo: '/next-icon.png' },
@@ -192,6 +182,33 @@ export const portfolioData = {
       tech: ['ESP32', 'Arduino', 'C++', 'PHP'],
       liveUrl: '#',
       githubUrl: 'https://github.com/Pongpitchit/IOT-HUB-DIT208',
+    },
+    {
+      title: 'MoneyFlow',
+      category: 'web design',
+      image: '/moneyflow.png',
+      description: 'Subscription & Debt Management System\nA Web POS system for managing monthly service fees (subscription division), tracking payments, and managing debt — with Notion as the backend database.',
+      tech: ['Notion API', 'Next.js', 'TypeScript', 'Docker', 'Tailwind CSS'],
+      liveUrl: '#',
+      githubUrl: '#',
+    },
+    {
+      title: 'Card-Generator',
+      category: 'web design',
+      image: '/card-generator.png',
+      description: 'Card Generator Web project is a web-based application designed to simplify the process of creating digital cards for various occasions, including events, invitations, and greetings. The application provides a user-friendly interface that allows users to customize their cards with images, text, and pre-defined templates, enabling quick and easy card generation.',
+      tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+      liveUrl: '#',
+      githubUrl: '#',
+    },
+    {
+      title: 'AttendanceApp — Learning Tracker',
+      category: 'web design',
+      image: '/attendanceapp.png',
+      description: 'AttendanceApp Learning Tracker is a web-based application designed to track student attendance and learning progress. The application provides a user-friendly interface that allows users to manage attendance records, track learning progress, and generate reports.',
+      tech: ['Notion API', 'Next.js', 'TypeScript', 'Tailwind CSS'],
+      liveUrl: '#',
+      githubUrl: '#',
     },
   ],
 } as const
