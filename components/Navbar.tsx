@@ -7,7 +7,7 @@ interface NavbarProps {
   onNav: (section: string) => void
 }
 
-const navItems = ['PROFIL', 'PROJECT', 'CONTACT']
+const navItems = ['PROFILE', 'PROJECT', 'CONTACT']
 
 export default function Navbar({ activeSection, onNav }: NavbarProps) {
   const { theme, toggleTheme } = useTheme()

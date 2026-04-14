@@ -134,13 +134,13 @@ export default function ContactSection({ profile, contact }: ContactSectionProps
         {/* Thank you */}
         <div className="text-center mt-20 animate-fade-up delay-400">
           <h2 className="font-display text-[clamp(3rem,10vw,9rem)] leading-none" style={{ color: 'var(--text)' }}>
-            THANK YOU
+            {/* THANK YOU */}
           </h2>
           <div
             className="font-display text-[clamp(2rem,7vw,7rem)] leading-none"
             style={{ color: 'transparent', WebkitTextStroke: '1px var(--text-dim)' }}
           >
-            FOR YOUR
+            {/* FOR YOUR */}
           </div>
         </div>
       </div>

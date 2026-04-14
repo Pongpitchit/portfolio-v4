@@ -117,10 +117,10 @@ export default function Hero({ name, title, subtitle, onStart }: HeroProps) {
           </button>
           <div className="section-line w-24" />
           <button className="font-sans text-xs tracking-[0.15em] uppercase" style={{ color: 'var(--text-muted)', background: 'none', border: 'none', cursor: 'pointer' }}>
-            OPTIONS
+            {/* OPTIONS */}
           </button>
           <button className="font-sans text-xs tracking-[0.15em] uppercase" style={{ color: 'var(--text-dim)', background: 'none', border: 'none', cursor: 'pointer' }}>
-            EXIT
+            {/* EXIT */}
           </button>
         </div>
       </div>
