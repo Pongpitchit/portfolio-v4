@@ -9,7 +9,7 @@ import ProfileSection from '@/components/ProfileSection'
 import ProjectSection from '@/components/ProjectSection'
 import ContactSection from '@/components/ContactSection'
 
-export type Section = 'HERO' | 'PROFIL' | 'PROJECT' | 'CONTACT'
+export type Section = 'HERO' | 'PROFILE' | 'PROJECT' | 'CONTACT'
 
 export default function Home() {
   const [section, setSection] = useState<Section>('HERO')
@@ -20,7 +20,7 @@ export default function Home() {
   }
 
   const handleStart = () => {
-    setSection('PROFIL')
+    setSection('PROFILE')
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
@@ -48,7 +48,7 @@ export default function Home() {
         <>
           <Marquee skills={portfolioConfig.about.skills.map(s => s.name)} />
 
-          {section === 'PROFIL' && (
+          {section === 'PROFILE' && (
             <ProfileSection
               profile={portfolioConfig.profile}
               about={portfolioConfig.about}
