@@ -50,16 +50,11 @@ export const aboutData = {
     },
   ],
   projectsInProgress: [
-    // {
-    //   avatar: '',
-    //   name: '',
-    //   text: '',
-    // },
-    // {
-    //   avatar: '',
-    //   name: '',
-    //   text: '',
-    // },
+    {
+      avatar: '#',
+      name: '#',
+      text: '#',
+    },
   ],
   skills: [
     { name: 'Next.js',      logo: '/next-icon.png' },

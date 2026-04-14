@@ -304,12 +304,13 @@ export default function ProfileSection({ profile, about, resume, portfolio, onNa
             </div>
 
             {/* Projects in progress */}
-            <div>
-              <h3 className="font-sans text-xs font-bold tracking-[0.2em] uppercase mb-5" style={{ color: 'var(--text)' }}>
-                In Progress
-              </h3>
-              <div className="space-y-6">
-                {about.projectsInProgress.map(proj => (
+            {about.projectsInProgress.length > 0 && about.projectsInProgress.some(proj => proj.name !== '#') && (
+              <div>
+                <h3 className="font-sans text-xs font-bold tracking-[0.2em] uppercase mb-5" style={{ color: 'var(--text)' }}>
+                  In Progress
+                </h3>
+                <div className="space-y-6">
+                  {about.projectsInProgress.filter(proj => proj.name !== '#').map(proj => (
                   <div
                     key={proj.name}
                     className="flex gap-6 p-5 rounded-xl card-hover cursor-pointer group"
@@ -349,9 +350,10 @@ export default function ProfileSection({ profile, about, resume, portfolio, onNa
                       </p>
                     </div>
                   </div>
-                ))}
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </div>
 
