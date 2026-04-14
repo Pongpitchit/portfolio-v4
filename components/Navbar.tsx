@@ -14,11 +14,10 @@ export default function Navbar({ activeSection, onNav }: NavbarProps) {
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4"
+      className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-6 py-4 sm:backdrop-blur-[20px]"
       style={{
         background: 'var(--bg)',
         borderBottom: '1px solid var(--border)',
-        backdropFilter: 'blur(20px)',
       }}
     >
       {/* Logo */}

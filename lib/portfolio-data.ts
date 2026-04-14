@@ -201,7 +201,7 @@ export const portfolioData = {
 export const contactData = {
   email: 'Pongpitchitza@gmail.com',
   phone: '',
-  location: 'Bangkok',
+  location: '',
   mapUrl: '',
 } as const
 

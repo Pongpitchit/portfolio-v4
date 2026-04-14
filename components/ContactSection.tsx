@@ -45,7 +45,7 @@ export default function ContactSection({ profile, contact }: ContactSectionProps
             <div className="space-y-4 mb-8">
               {[
                 { label: 'Email', value: contact.email, href: `mailto:${contact.email}` },
-                { label: 'Location', value: contact.location, href: contact.mapUrl },
+                // { label: 'Location', value: contact.location, href: contact.mapUrl },
                 { label: 'University', value: profile.studying, href: undefined },
                 { label: 'Faculty', value: profile.faculty, href: undefined },
               ].map(({ label, value, href }) => (
@@ -83,7 +83,7 @@ export default function ContactSection({ profile, contact }: ContactSectionProps
                 className="w-14 h-14 rounded-full flex items-center justify-center font-display text-xl flex-shrink-0"
                 style={{ background: 'var(--bg-2)', border: '2px solid var(--border)', color: 'var(--text)' }}
               >
-                {profile.name.slice(0, 2).toUpperCase()}
+                PS
               </div>
               <div>
                 <p className="font-sans text-sm font-bold" style={{ color: 'var(--text)' }}>{profile.name}</p>
