@@ -38,7 +38,7 @@ export default function ContactSection({ profile, contact }: ContactSectionProps
               className="font-display text-[clamp(2rem,5vw,4.5rem)] leading-none mb-8"
               style={{ color: 'transparent', WebkitTextStroke: '1px var(--text-muted)' }}
             >
-              ME
+              {/* ME */}
             </div>
 
             {/* Info rows */}
