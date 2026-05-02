@@ -239,29 +239,6 @@ export default function ProfileSection({ profile, about, resume, portfolio, onNa
               </div>
             </div>
 
-            {/* Skill bars */}
-            <div>
-              <h3 className="font-sans text-xs font-bold tracking-[0.2em] uppercase mb-5" style={{ color: 'var(--text)' }}>
-                Proficiency
-              </h3>
-              <div className="space-y-4">
-                {resume.skills.map(skill => (
-                  <div key={skill.name}>
-                    <div className="flex justify-between mb-2">
-                      <span className="font-mono text-xs uppercase" style={{ color: 'var(--text-muted)' }}>{skill.name}</span>
-                      <span className="font-mono text-xs" style={{ color: 'var(--text-dim)' }}>{skill.level}%</span>
-                    </div>
-                    <div className="h-px w-full" style={{ background: 'var(--border)' }}>
-                      <div
-                        className="h-full skill-bar-fill"
-                        style={{ width: `${skill.level}%`, background: 'var(--text)' }}
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
             {/* Education */}
             <div>
               <h3 className="font-sans text-xs font-bold tracking-[0.2em] uppercase mb-5" style={{ color: 'var(--text)' }}>
